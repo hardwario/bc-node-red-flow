@@ -7,7 +7,7 @@ This repository contains example Node-RED flows. These can be immediately used i
 ## Push Button Controlling Smart LED Strip
 
 [**Click here**](
-raw/master/flow-push-button-controlling-smart-led-strip.json) to open this flow.
+../../raw/master/flow-push-button-controlling-smart-led-strip.json) to open this flow.
 
 ![](flow-push-button-controlling-smart-led-strip.png)
 
