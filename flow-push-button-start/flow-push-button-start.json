@@ -1,0 +1,101 @@
+[
+    {
+        "id": "15df28f2.462257",
+        "type": "mqtt in",
+        "z": "a4034390.c1ebc",
+        "name": "",
+        "topic": "node/push-button:0/push-button/-/event-count",
+        "qos": "2",
+        "broker": "c5cd8175.0996b",
+        "x": 190,
+        "y": 100,
+        "wires": [
+            [
+                "a2c04570.d19858"
+            ]
+        ]
+    },
+    {
+        "id": "1b4d4ebf.1afd41",
+        "type": "blynk-ws-out-notify",
+        "z": "a4034390.c1ebc",
+        "name": "Blynk notification",
+        "client": "5aa40c38.52d764",
+        "queue": false,
+        "rate": 5,
+        "x": 710,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a2c04570.d19858",
+        "type": "change",
+        "z": "a4034390.c1ebc",
+        "name": "Set message",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Button pressed, you're the best!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 100,
+        "wires": [
+            [
+                "1b4d4ebf.1afd41"
+            ]
+        ]
+    },
+    {
+        "id": "9fbcda47.c19a98",
+        "type": "comment",
+        "z": "a4034390.c1ebc",
+        "name": "Push Button Kit flow",
+        "info": "",
+        "x": 110,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "c5cd8175.0996b",
+        "type": "mqtt-broker",
+        "z": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": ""
+    },
+    {
+        "id": "5aa40c38.52d764",
+        "type": "blynk-ws-client",
+        "z": "",
+        "name": "",
+        "path": "ws://blynk-cloud.com/websockets",
+        "key": "5cf554e34caf4d49a1b24cd07c5e2c13",
+        "dbg_all": false,
+        "dbg_read": false,
+        "dbg_write": false,
+        "dbg_notify": false,
+        "dbg_mail": false,
+        "dbg_prop": false,
+        "dbg_low": false,
+        "dbg_pins": ""
+    }
+]
