@@ -1,8 +1,8 @@
-<a href="https://www.bigclown.com/"><img src="https://bigclown.sirv.com/logo.png" width="200" alt="BigClown Logo" align="right"></a>
+<a href="https://www.hardwario.com/"><img src="https://www.hardwario.com/ci/assets/hw-logo.svg" width="200" alt="HARDWARIO Logo" align="right"></a>
 
-# BigClown Node-RED Flow Index
+# HARDWARIO Node-RED Flow Index
 
-This repository contains example Node-RED flows. These can be immediately used in the **BigClown Playground**. All flows come with a screenshot of the flow and the link to its JSON source (can be imported using **Menu >> Import >> Library**).
+This repository contains example Node-RED flows. These can be immediately used in the **HARDWARIO Playground**. All flows come with a screenshot of the flow and the link to its JSON source (can be imported using **Menu >> Import >> Library**).
 
 
 ## Push Button Phone Notification
