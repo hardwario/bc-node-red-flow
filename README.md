@@ -22,4 +22,4 @@ This repository contains example Node-RED flows. These can be immediately used i
 
 ---
 
-Made with &#x2764;&nbsp; by [**HARDWARIO s.r.o.**](https://www.hardwario.com/) in the heart of Europe.
+Made with &#x2764;&nbsp; by [**HARDWARIO a.s.**](https://www.hardwario.com/) in the heart of Europe.
